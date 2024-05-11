@@ -2,11 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://asdt560.github.io/frontend-nitin/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slido</title>
-    <script type="module" crossorigin src="https://asdt560.github.io/frontend-nitin/assets/index-Do7UTx67.js"></script>
-    <link rel="stylesheet" crossorigin href="https://asdt560.github.io/frontend-nitin/assets/index-DzN4Tx_H.css">
+    <script>
+      (() => {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/frontend-nitin/assets/index-CDc3Unsi.js"></script>
+    <link rel="stylesheet" crossorigin href="/frontend-nitin/assets/index-B4Gi5CK7.css">
   </head>
   <body>
     <div class="container-fluid p-0 m-0" id="root"></div>
