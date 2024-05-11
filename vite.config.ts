@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/frontend-nitin",
+  base: "https://asdt560.github.io/frontend-nitin/",
   plugins: [react()],
 })
