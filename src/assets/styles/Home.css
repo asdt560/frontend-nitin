@@ -1,0 +1,92 @@
+
+.code-form {
+  border-radius: 150px / 75px;
+  @media(max-width: 635px) {
+    border-radius: 0;
+  }
+}
+
+.code-form > label {
+  font-size: 1.5rem;
+  @media(max-width: 635px) {
+    font-size: 1.2rem;
+    margin-left: 50px;
+  }
+}	
+
+.big-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: Inter;
+  @media(max-width: 750px) {
+    font-size: 2.5rem;
+  }
+  @media(max-width: 400px) {
+    font-size: 2rem;
+  }
+}
+
+.bi-arrow-right-circle-fill {
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+
+button.position-relative {
+  font-size:36px;
+  right: 60px;
+  bottom:2px;
+}
+
+.square {
+  width: 120px;
+}
+
+section {
+  flex-direction: row;
+  padding: 48px;
+  @media(max-width: 750px) {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.accordion-holder {
+  flex-direction:row;
+  @media(max-width: 750px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.grow-img {
+  min-width: 0;
+  width: 100%;
+  height: auto;
+}
+
+.not-small {
+  display: block;
+  @media(max-width: 750px) {
+    display: none;
+  }
+}
+
+.small {
+  display: none;
+  @media(max-width: 750px) {
+    display: flex;
+  }
+}
+
+.accordion {
+  min-width: 40%;
+  width: 40%;
+  @media(max-width: 750px) {
+    display: none;
+  }
+}
+
+.background-grey {
+  background-color: #faf7f0;
+}

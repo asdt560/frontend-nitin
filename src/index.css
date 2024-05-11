@@ -1,0 +1,27 @@
+#root {
+  height: 100vh;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}
+
+.underline:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+
+.bi-person-fill {
+  position: relative;
+  bottom: 3.3px 
+}
+
+.navbar-toggler {
+  order: 1;
+}
+
+#logo {
+  @media(max-width: 1000px) {
+    margin-right: auto;
+  }
+}
