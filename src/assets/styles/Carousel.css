@@ -1,3 +1,9 @@
+.slide-holder {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  touch-action: pan-x;
+}
+
 .page-counter {
   width: 36px;
   height: 36px;

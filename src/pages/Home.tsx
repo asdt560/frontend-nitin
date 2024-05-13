@@ -31,8 +31,8 @@ const Home = () => {
     setActive(typeof eventkey?.toString() === 'string' ? eventkey?.toString() : '0');
   }
   return (
-    <Container className="d-flex flex-column align-items-center gap-4 p-0 mt-2" fluid>
-      <form className="code-form d-flex p-2 ps-3 justify-content-between align-items-center gap-3 bg-success">
+    <Container className="d-flex mw-100 flex-column align-items-center gap-4 p-0 mt-2" fluid>
+      <form className="code-form mw-100 d-flex p-2 ps-3 justify-content-between align-items-center gap-3 bg-success">
         <label className="fw-bold text-light">
           Joining as a participant?
         </label>
